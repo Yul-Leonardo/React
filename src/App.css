@@ -1,0 +1,17 @@
+.nav-menu {
+  background-color: lightblue;
+  width: 100vw;
+  height: 50vh;
+  position: fixed;
+  top: 0;
+  margin-top: 5vh;
+  left: -100%;
+  transition: 850ms;
+  z-index: 0;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+  z-index: 1;
+}
